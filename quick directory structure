@@ -1,0 +1,184 @@
+│   │   │   ├── code.gif
+│   │   │   ├── design.gif
+│   │   │   ├── docs.gif
+│   │   │   ├── fix.gif
+│   │   │   ├── tomcat.gif
+│   │   │   ├── update.gif
+│   │   │   └── void.gif
+│   │   ├── index.jsp
+│   │   └── manager.xml
+│   └── manager
+│       ├── META-INF
+│       │   └── context.xml
+│       ├── WEB-INF
+│       │   ├── jsp
+│       │   │   ├── 401.jsp
+│       │   │   ├── 403.jsp
+│       │   │   ├── 404.jsp
+│       │   │   ├── connectorCerts.jsp
+│       │   │   ├── connectorCiphers.jsp
+│       │   │   ├── connectorTrustedCerts.jsp
+│       │   │   ├── sessionDetail.jsp
+│       │   │   └── sessionsList.jsp
+│       │   └── web.xml
+│       ├── images
+│       │   ├── add.gif
+│       │   ├── asf-logo.svg
+│       │   ├── code.gif
+│       │   ├── design.gif
+│       │   ├── docs.gif
+│       │   ├── fix.gif
+│       │   ├── tomcat.gif
+│       │   ├── update.gif
+│       │   └── void.gif
+│       ├── index.jsp
+│       ├── status.xsd
+│       └── xform.xsl
+└── work
+
+107 directories, 641 files
+root@ip-172-31-46-88:~#  clear
+root@ip-172-31-46-88:~# cd tomcat8
+root@ip-172-31-46-88:~/tomcat8# ls
+BUILDING.txt  CONTRIBUTING.md  LICENSE  NOTICE  README.md  RELEASE-NOTES  RUNNING.txt  bin  conf  lib  logs  temp  webapps  work
+root@ip-172-31-46-88:~/tomcat8# tree conf/
+conf/
+├── catalina.policy
+├── catalina.properties
+├── context.xml
+├── jaspic-providers.xml
+├── jaspic-providers.xsd
+├── logging.properties
+├── server.xml
+├── tomcat-users.xml
+├── tomcat-users.xsd
+└── web.xml
+
+0 directories, 10 files
+root@ip-172-31-46-88:~/tomcat8# tree bin
+bin
+├── bootstrap.jar
+├── catalina-tasks.xml
+├── catalina.bat
+├── catalina.sh
+├── commons-daemon-native.tar.gz
+├── commons-daemon.jar
+├── configtest.bat
+├── configtest.sh
+├── daemon.sh
+├── digest.bat
+├── digest.sh
+├── setclasspath.bat
+├── setclasspath.sh
+├── shutdown.bat
+├── shutdown.sh
+├── startup.bat
+├── startup.sh
+├── tomcat-juli.jar
+├── tomcat-native.tar.gz
+├── tool-wrapper.bat
+├── tool-wrapper.sh
+├── version.bat
+└── version.sh
+
+0 directories, 23 files
+root@ip-172-31-46-88:~/tomcat8# ls
+BUILDING.txt  CONTRIBUTING.md  LICENSE  NOTICE  README.md  RELEASE-NOTES  RUNNING.txt  bin  conf  lib  logs  temp  webapps  work
+root@ip-172-31-46-88:~/tomcat8# ls -ltr logs
+total 0
+root@ip-172-31-46-88:~/tomcat8# ls -ltr temp
+total 0
+-rw-r----- 1 root root 0 Jun  4 20:29 safeToDelete.tmp
+root@ip-172-31-46-88:~/tomcat8# ls -ltr webapps/
+total 20
+drwxr-x---  3 root root 4096 Jul  6 04:48 ROOT
+drwxr-x--- 14 root root 4096 Jul  6 04:48 docs
+drwxr-x---  6 root root 4096 Jul  6 04:48 examples
+drwxr-x---  5 root root 4096 Jul  6 04:48 host-manager
+drwxr-x---  5 root root 4096 Jul  6 04:48 manager
+root@ip-172-31-46-88:~/tomcat8# ls -ltr work/
+total 0
+root@ip-172-31-46-88:~/tomcat8#
+
+
+
+├── catalina.bat
+├── catalina.sh
+├── commons-daemon-native.tar.gz
+├── commons-daemon.jar
+├── configtest.bat
+├── configtest.sh
+├── daemon.sh
+├── digest.bat
+├── digest.sh
+├── setclasspath.bat
+├── setclasspath.sh
+├── shutdown.bat
+├── shutdown.sh
+├── startup.bat
+├── startup.sh
+├── tomcat-juli.jar
+├── tomcat-native.tar.gz
+├── tool-wrapper.bat
+├── tool-wrapper.sh
+├── version.bat
+└── version.sh
+
+0 directories, 23 files
+root@ip-172-31-46-88:~/tomcat8# ls
+BUILDING.txt  CONTRIBUTING.md  LICENSE  NOTICE  README.md  RELEASE-NOTES  RUNNING.txt  bin  conf  lib  logs  temp  webapps  work
+root@ip-172-31-46-88:~/tomcat8# ls -ltr logs
+total 0
+root@ip-172-31-46-88:~/tomcat8# ls -ltr temp
+total 0
+-rw-r----- 1 root root 0 Jun  4 20:29 safeToDelete.tmp
+root@ip-172-31-46-88:~/tomcat8# ls -ltr webapps/
+total 20
+drwxr-x---  3 root root 4096 Jul  6 04:48 ROOT
+drwxr-x--- 14 root root 4096 Jul  6 04:48 docs
+drwxr-x---  6 root root 4096 Jul  6 04:48 examples
+drwxr-x---  5 root root 4096 Jul  6 04:48 host-manager
+drwxr-x---  5 root root 4096 Jul  6 04:48 manager
+root@ip-172-31-46-88:~/tomcat8# ls -ltr work/
+total 0
+root@ip-172-31-46-88:~/tomcat8# clear
+root@ip-172-31-46-88:~/tomcat8# ls
+BUILDING.txt  CONTRIBUTING.md  LICENSE  NOTICE  README.md  RELEASE-NOTES  RUNNING.txt  bin  conf  lib  logs  temp  webapps  work
+root@ip-172-31-46-88:~/tomcat8# ls -ltr bin
+total 852
+-rw-r----- 1 root root   2026 Jun  4 20:29 version.bat
+-rw-r----- 1 root root   4574 Jun  4 20:29 tool-wrapper.bat
+-rw-r----- 1 root root  49935 Jun  4 20:29 tomcat-juli.jar
+-rw-r----- 1 root root   2022 Jun  4 20:29 startup.bat
+-rw-r----- 1 root root   2020 Jun  4 20:29 shutdown.bat
+-rw-r----- 1 root root   3460 Jun  4 20:29 setclasspath.bat
+-rw-r----- 1 root root   2091 Jun  4 20:29 digest.bat
+-rw-r----- 1 root root   2040 Jun  4 20:29 configtest.bat
+-rw-r----- 1 root root  25145 Jun  4 20:29 commons-daemon.jar
+-rw-r----- 1 root root  15900 Jun  4 20:29 catalina.bat
+-rw-r----- 1 root root  35183 Jun  4 20:29 bootstrap.jar
+-rwxr-x--- 1 root root   1908 Jun  4 20:29 version.sh
+-rwxr-x--- 1 root root   5515 Jun  4 20:29 tool-wrapper.sh
+-rw-r----- 1 root root 418909 Jun  4 20:29 tomcat-native.tar.gz
+-rwxr-x--- 1 root root   1904 Jun  4 20:29 startup.sh
+-rwxr-x--- 1 root root   1902 Jun  4 20:29 shutdown.sh
+-rwxr-x--- 1 root root   3708 Jun  4 20:29 setclasspath.sh
+-rwxr-x--- 1 root root   1965 Jun  4 20:29 digest.sh
+-rwxr-x--- 1 root root   8513 Jun  4 20:29 daemon.sh
+-rwxr-x--- 1 root root   1922 Jun  4 20:29 configtest.sh
+-rw-r----- 1 root root 207125 Jun  4 20:29 commons-daemon-native.tar.gz
+-rwxr-x--- 1 root root  23447 Jun  4 20:29 catalina.sh
+-rw-r----- 1 root root   1664 Jun  4 20:31 catalina-tasks.xml
+root@ip-172-31-46-88:~/tomcat8# ls -ltr conf
+total 224
+-rw------- 1 root root 171082 Jun  4 20:31 web.xml
+-rw------- 1 root root   2633 Jun  4 20:31 tomcat-users.xsd
+-rw------- 1 root root   2164 Jun  4 20:31 tomcat-users.xml
+-rw------- 1 root root   7511 Jun  4 20:31 server.xml
+-rw------- 1 root root   3916 Jun  4 20:31 logging.properties
+-rw------- 1 root root   2313 Jun  4 20:31 jaspic-providers.xsd
+-rw------- 1 root root   1149 Jun  4 20:31 jaspic-providers.xml
+-rw------- 1 root root   1338 Jun  4 20:31 context.xml
+-rw------- 1 root root   7661 Jun  4 20:31 catalina.properties
+-rw------- 1 root root  13548 Jun  4 20:31 catalina.policy
+root@ip-172-31-46-88:~/tomcat8#
