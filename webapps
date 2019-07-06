@@ -1,0 +1,82 @@
+root@ip-172-31-46-88:~/tomcat8/webapps# ls
+ROOT  docs  examples  host-manager  manager
+root@ip-172-31-46-88:~/tomcat8/webapps# tree host-manager/
+host-manager/
+├── META-INF
+│   └── context.xml
+├── WEB-INF
+│   ├── jsp
+│   │   ├── 401.jsp
+│   │   ├── 403.jsp
+│   │   └── 404.jsp
+│   └── web.xml
+├── images
+│   ├── add.gif
+│   ├── asf-logo.svg
+│   ├── code.gif
+│   ├── design.gif
+│   ├── docs.gif
+│   ├── fix.gif
+│   ├── tomcat.gif
+│   ├── update.gif
+│   └── void.gif
+├── index.jsp
+└── manager.xml
+
+4 directories, 16 files
+root@ip-172-31-46-88:~/tomcat8/webapps# tree manager/
+manager/
+├── META-INF
+│   └── context.xml
+├── WEB-INF
+│   ├── jsp
+│   │   ├── 401.jsp
+│   │   ├── 403.jsp
+│   │   ├── 404.jsp
+│   │   ├── connectorCerts.jsp
+│   │   ├── connectorCiphers.jsp
+│   │   ├── connectorTrustedCerts.jsp
+│   │   ├── sessionDetail.jsp
+│   │   └── sessionsList.jsp
+│   └── web.xml
+├── images
+│   ├── add.gif
+│   ├── asf-logo.svg
+│   ├── code.gif
+│   ├── design.gif
+│   ├── docs.gif
+│   ├── fix.gif
+│   ├── tomcat.gif
+│   ├── update.gif
+│   └── void.gif
+├── index.jsp
+├── status.xsd
+└── xform.xsl
+
+4 directories, 22 files
+root@ip-172-31-46-88:~/tomcat8/webapps# ls
+
+
+root@ip-172-31-46-88:~/tomcat8/webapps# ls
+ROOT  docs  examples  host-manager  manager
+root@ip-172-31-46-88:~/tomcat8/webapps# tree ROOT/
+ROOT/
+├── RELEASE-NOTES.txt
+├── WEB-INF
+│   └── web.xml
+├── asf-logo-wide.svg
+├── bg-button.png
+├── bg-middle.png
+├── bg-nav-item.png
+├── bg-nav.png
+├── bg-upper.png
+├── favicon.ico
+├── index.jsp
+├── tomcat-power.gif
+├── tomcat.css
+├── tomcat.gif
+├── tomcat.png
+└── tomcat.svg
+
+1 directory, 15 files
+root@ip-172-31-46-88:~/tomcat8/webapps#
